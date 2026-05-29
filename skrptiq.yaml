@@ -1,0 +1,25 @@
+# --- Identity ---
+id: "bd855737-423d-4a4e-8f03-d59f4370743a"
+name: "check-brief-compliance"
+display_name: "Check Brief Compliance"
+description: "Verifies output meets all requirements from the original brief"
+version: "1.0.0"
+engine: ">=0.1.0"
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/hub-shared-check-brief-compliance"
+category: "shared"
+tags:
+  - "shared"
+  - "prompt"
+contents:
+  skills: 0
+  prompts: 1
+  workflows: 0
+  services: 0
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 1
