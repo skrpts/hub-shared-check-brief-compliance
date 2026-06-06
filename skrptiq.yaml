@@ -1,9 +1,9 @@
 # --- Identity ---
-id: "bd855737-423d-4a4e-8f03-d59f4370743a"
+id: "e59f27f4-21ab-4b14-b171-3e9a6100ebaa"
 name: "check-brief-compliance"
 display_name: "Check Brief Compliance"
 description: "Verifies output meets all requirements from the original brief"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
