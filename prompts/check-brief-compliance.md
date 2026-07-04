@@ -4,7 +4,11 @@ id: check-brief-compliance
 title: "Check Brief Compliance"
 description: "Verifies output meets all requirements from the original brief"
 tags: [Production, Quality]
-
+context_params:
+  source:
+    label: "Source"
+    description: "The output to check against the brief."
+    default_from_previous: true
 metadata:
   output_format: markdown
   prompt_type: task
@@ -34,7 +38,7 @@ If no brief is provided above, extract the implicit requirements from the output
 
 ### Output to Check
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Compliance Depth: {{step.context.compliance_depth}}
 

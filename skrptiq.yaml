@@ -3,7 +3,7 @@ id: "e59f27f4-21ab-4b14-b171-3e9a6100ebaa"
 name: "check-brief-compliance"
 display_name: "Check Brief Compliance"
 description: "Verifies output meets all requirements from the original brief"
-version: "1.0.2"
+version: "1.0.3"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -25,3 +25,17 @@ contents:
   documents: 0
   assets: 0
   total: 1
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-04T21:06:59.201Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: []
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/check-brief-compliance/security"
