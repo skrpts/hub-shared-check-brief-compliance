@@ -3,7 +3,7 @@ id: "e59f27f4-21ab-4b14-b171-3e9a6100ebaa"
 name: "check-brief-compliance"
 display_name: "Check Brief Compliance"
 description: "Verifies output meets all requirements from the original brief"
-version: "1.0.3"
+version: "1.0.4"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -28,7 +28,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-04T21:06:59.201Z"
+  scanned_at: "2026-10-25T18:24:07.319Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
